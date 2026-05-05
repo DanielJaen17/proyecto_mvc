@@ -1,0 +1,103 @@
+/* Estilos generales de toda la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #111, #444);
+}
+
+/* Contenedor principal donde se coloca el formulario o el resultado */
+.contenedor {
+    width: 90%;
+    max-width: 500px;
+    margin: 60px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo del título principal */
+h1 {
+    text-align: center;
+    color: #111;
+}
+
+/* Estilo de las etiquetas del formulario */
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Estilos generales para inputs y textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+/* Tamaño específico del área de mensaje */
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+/* Diseño del botón de enviar */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #111;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Efecto visual cuando el mouse pasa sobre el botón */
+button:hover {
+    background: #333;
+}
+
+/* Caja donde se muestra el mensaje de error */
+.error {
+    background: #ffe1e1;
+    color: #a10000;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    border: 1px solid #ff9b9b;
+}
+
+/* Caja donde se muestran los datos enviados */
+.datos {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Botón para regresar al formulario */
+.boton-volver {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    padding: 12px;
+    background: #111;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+/* Efecto al pasar el mouse sobre el botón de volver */
+.boton-volver:hover {
+    background: #333;
+}
